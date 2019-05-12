@@ -2,9 +2,9 @@
   "name": "sns",
   "version": "0.1.0",
   "description": "School Notification System for Janggok (Personal Project)",
-  "main": "",
+  "main": "./test/index.js",
   "scripts": {
-    
+    "test": "electron ./post-client/"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/PMHStudio/SchoolNotificationSystem/issues"
   },
-  "homepage": "https://github.com/PMHStudio/SchoolNotificationSystem#readme"
+  "homepage": "https://github.com/PMHStudio/SchoolNotificationSystem#readme",
+  "dependencies": {
+    "electron": "^5.0.1",
+    "regedit": "^3.0.2",
+    "superagent": "^5.0.5"
+  }
 }

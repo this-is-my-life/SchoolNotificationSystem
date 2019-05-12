@@ -1,0 +1,15 @@
+.mdl-layout__header {
+  -webkit-user-select: none;
+}
+
+.mdl-layout-spacer, .mdl-layout-title {
+  -webkit-app-region: drag;
+}
+
+.mdl-layout-spacer {
+  height: 100%;
+}
+
+.mdl-navigation__link {
+  cursor: pointer;
+}

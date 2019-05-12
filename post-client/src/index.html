@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>알림장 리스트 - School Notification System</title>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-blue.min.css" /> 
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body><!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">알림장 프로그램 (교사용)</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+          <nav class="mdl-navigation">
+              <a class="mdl-navigation__link" onclick="close()"><i class="material-icons">playlist_add</i></a>
+              <a class="mdl-navigation__link" onclick="require('electron').remote.app.quit()"><i class="material-icons">close</i></a>
+          </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">메뉴</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">글쓰기</a>
+          <a class="mdl-navigation__link" href="">파일 보내기</a>
+          <a class="mdl-navigation__link" href="">정보</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="page-content" id="render">
+          <!-- Rendering Point -->
+        </div>
+      </main>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
