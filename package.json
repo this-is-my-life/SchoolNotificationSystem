@@ -1,0 +1,19 @@
+{
+  "name": "sns",
+  "version": "0.1.0",
+  "description": "School Notification System for Janggok (Personal Project)",
+  "main": "",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PMHStudio/SchoolNotificationSystem.git"
+  },
+  "author": "SWAG / PMH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PMHStudio/SchoolNotificationSystem/issues"
+  },
+  "homepage": "https://github.com/PMHStudio/SchoolNotificationSystem#readme"
+}
