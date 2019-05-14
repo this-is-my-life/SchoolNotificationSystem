@@ -20,18 +20,14 @@
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation. We hide it in small screens. -->
-          <nav class="mdl-navigation">
-              <a class="mdl-navigation__link" onclick="getAddScreen()"><i class="material-icons">playlist_add</i></a>
-              <a class="mdl-navigation__link" onclick="require('electron').remote.app.quit()"><i class="material-icons">close</i></a>
-          </nav>
         </div>
       </header>
       <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">메뉴</span>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">글쓰기</a>
+          <a class="mdl-navigation__link" onclick="to('settings.html', 'index.html')">글쓰기</a>
           <a class="mdl-navigation__link" href="">파일 보내기</a>
-          <a class="mdl-navigation__link" onclick="to('index.html', 'settings.html')">설정</a>
+          <a class="mdl-navigation__link" onclick="to('settings.html', 'settings.html')">설정</a>
           <a class="mdl-navigation__link" href="">정보</a>
         </nav>
       </div>

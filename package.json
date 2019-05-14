@@ -4,7 +4,7 @@
   "description": "School Notification System for Janggok (Personal Project)",
   "main": "./test/index.js",
   "scripts": {
-    "test": "electron ./post-client/"
+    "test": "cd post-client && electron ./"
   },
   "repository": {
     "type": "git",
