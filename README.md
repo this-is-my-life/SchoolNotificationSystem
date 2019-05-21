@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FPMHStudio%2FSchoolNotificationSystem.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FPMHStudio%2FSchoolNotificationSystem?ref=badge_shield)
+
 School Notification System.
 ============================
 
@@ -40,3 +42,7 @@ School Notification System.
 
 -----------------------------------
 Copyright (c) 2019. SWAG Team / PMH. MIT Licensed.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FPMHStudio%2FSchoolNotificationSystem.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FPMHStudio%2FSchoolNotificationSystem?ref=badge_large)
